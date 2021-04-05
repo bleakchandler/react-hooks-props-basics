@@ -4,7 +4,7 @@ import Comment from "./Comment";
 
 function BlogPost() {
   return (
-    <div id="blog-post">
+    <div>
       <BlogContent
         articleText={
           "Dear Reader: Bjarne Stroustrup has the perfect lecture oration."
@@ -19,6 +19,6 @@ function BlogPost() {
       />
     </div>
   );
-}
+} 
 
 export default BlogPost;
